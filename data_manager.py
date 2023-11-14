@@ -10,7 +10,7 @@ class DataManager:
     def __init__(self):
         self.base_url = SHEETY_ENDPOINT
         self.bearer = {
-            "Authorization": "Bearer Waypoint1"
+            "Authorization": f"Bearer {data['Bearer']}"
         }
 
 
