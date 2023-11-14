@@ -5,7 +5,7 @@ Tracks flights specified from user via IATA code and texts user when price drops
 
 # Create a config.json file and add the following keys and values:
 {
-  "FLIGHT_SEARCH_ENDPOINT": ""https://api.tequila.kiwi.com/v2/search"",
+  "FLIGHT_SEARCH_ENDPOINT": "https://api.tequila.kiwi.com/v2/search",
   "FLIGHT_SEARCH_API": "Your tequila.kiwi api",
   "ACCOUNT_SID": "Your Twilio account sid",
   "AUTH_TOKEN": "Your Twilio auth token",
