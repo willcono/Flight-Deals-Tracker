@@ -13,7 +13,7 @@ MY_NUM = data["MY_NUM"]
 class NotificationManager:
 
     def __init__(self):
-        self.client = client = Client(ACCOUNT_SID, AUTH_TOKEN)
+        self.client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
     def send_message(self, price, city):
         message = self.client.messages \

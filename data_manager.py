@@ -13,10 +13,6 @@ class DataManager:
             "Authorization": f"Bearer {data['Bearer']}"
         }
 
-
-    # def get_city(self):
-    #     self.response = requests.get(url=self.base_url, headers=self.bearer)
-    #     city =
     def get_cities(self):
         response = requests.get(url=self.base_url, headers=self.bearer)
         cities = [location['city'] for location in response.json()['prices'][0:10]]
